@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'storecompressfiles',      
   packages = ['storecompressfiles'],  
-  version = '0.1',     
+  version = '0.2',     
   license='MIT',       
   description = 'Package can be used to store text files in compressed format i.e. allocating less space in the memory',   
   author = 'Ramandeep Singh',                   
