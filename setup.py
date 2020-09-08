@@ -8,10 +8,9 @@ setup(
   author = 'Ramandeep Singh',                   
   author_email = 'raman77768@gmail.com',      
   url = 'https://github.com/raman77768/storecompressfiles', 
-  download_url = 'https://github.com/raman77768/storecompressfiles/archive/v_0.1.tar.gz',    
+  download_url = 'https://github.com/raman77768/storecompressfiles/archive/v_0.2.tar.gz',    
   keywords = ['compress', 'small size', 'memory'],   
-  install_requires=[            
-          'sys'],
+  install_requires=[],
   classifiers=[
     'Development Status :: 3 - Alpha',      
     'Intended Audience :: Developers',      
