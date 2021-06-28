@@ -1,3 +1,8 @@
+def find_divisor(x):
+  for i in range(9,0,-1):
+    if x%i == 0:
+      return i
+
 def encode(s):
   #old_size=sys.getsizeof(s)
   code=""
@@ -27,10 +32,15 @@ def encode(s):
   #print("COMPRESSION RATE: ",compress_perc)
   #print(half_code)
   #print(code)
-  return int(half_code)
+  div = find_divisor(int(half_code))
+  new_code = int(str(int(half_code)//div)+str(div))
+  return new_code
+  #return int(half_code)
 
-def decode(x):
+def decode(encoded_num):
  
+  x = int(str(encoded_num)[0:-1]) * int(str(encoded_num)[-1])
+
   de=""
   s1,s2="",""
   for i in str(x):
