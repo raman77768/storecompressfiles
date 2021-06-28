@@ -9,7 +9,7 @@ setup(
   author = 'Ramandeep Singh',                   
   author_email = 'raman77768@gmail.com',      
   url = 'https://github.com/raman77768/storecompressfiles', 
-  download_url = 'https://github.com/raman77768/storecompressfiles/archive/v_0.4.tar.gz',    
+  download_url = 'https://github.com/raman77768/storecompressfiles/archive/refs/tags/v_0.4.tar.gz',    
   keywords = ['compress', 'small size', 'memory', 'encode', 'encryption'],   
   install_requires=['pandas'],
   classifiers=[
